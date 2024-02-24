@@ -306,6 +306,18 @@ a, .main__btn {
 .contact .contact__content input[type=submit] {
   cursor: pointer;
 }
+.contact .contact__content button {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  color: #0c0c0c;
+}
+.contact .contact__content button[type=submit] {
+  cursor: pointer;
+}
 .contact .contact__content form {
   display: inline-block;
   max-width: 600px;
