@@ -141,17 +141,19 @@
         </div>
 
         <div class="contact__cta">
-            <form action="https://formsubmit.co/mbmobilenotaryoc@gmail.com" method="post" enctype="text/plain">
+            <!-- apparantely 'enctype="text/plain"' caused emails to be sent totally blank, removed and fixed -->
+            <form action="https://formsubmit.co/mbmobilenotaryoc@gmail.com" method="post">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name"><br>
 
                 <label for="email">Email</label>
-                <input type="email" id="name" name="name"><br>
+                <input type="email" id="email" name="email" required><br>
 
                 <label for="message">Message</label>
-                <textarea name="message" id="message"></textarea>
+                <textarea name="message" id="message" required></textarea>
                 
-                <input type="submit" name="name" class="main__btn" value="Send Message">
+                <input type="submit" class="main__btn" value="Send Message">
+
             </form>
         </div>
       </div>
@@ -208,9 +210,9 @@
                     <a href="https://www.yelp.com/biz/anytime-notary-santa-ana-3" class="social__icons--link" target="_blank">
                         <i class="fab fa-yelp"></i>
                     </a>
-                    <a href="/" class="social__icons--link" target="_blank">
+                    <!-- <a href="/" class="social__icons--link" target="_blank">
                         <i class="fab fa-google"></i>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </section>
