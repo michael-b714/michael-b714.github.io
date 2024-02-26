@@ -232,6 +232,7 @@ a, .main__btn {
     -o-background-size: cover;
     background-size: cover;
     padding: 150px 0;
+    margin-top: 80px;
 
     .hero__container {
         display: flex;
@@ -516,6 +517,8 @@ a, .main__btn {
     }
 
     .hero {
+        margin-top: 0px;
+
        .hero__heading {
         font-size: 2.4em;
        }
@@ -573,7 +576,6 @@ a, .main__btn {
 
     // }
 }
-
 @media screen and (min-width: 1080px) {
     .main__container {
         padding: 70px 50px !important;
