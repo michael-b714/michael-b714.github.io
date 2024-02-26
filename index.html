@@ -89,7 +89,7 @@
                 <div class="services__content">
                     <h2>Signature Notarization</h2>
                     <p>I charge $15 per signature that needs notarization plus a travel fee according to your 
-                        location where. If you need more than 10 signatures notarized I will waive the travel fee.</p>
+                        location. If you need more than 8 signatures notarized I will waive the travel fee.</p>
                     <!-- <a href="/services.html"><button class="main__btn">Learn More</button></a> -->
                 </div>
                 <!-- <div class="main__img--card">
@@ -129,46 +129,46 @@
 
 <!-- Contact section  -->
 
-<div class="contact" id="contact">
-    <div class="contact__container">
-      <div class="contact__content">
-        <!-- <h1>Get your documents notarized today!</h1> -->
-        <div class="contact__info">
-            <h2>Call or e-mail to set up an appointment</h2>
-            <a class="email__link" href="mail-to:mbmobilenotaryoc@gmail.com"> </a>
-            <p>E-mail: <a href="mail-to:mbmobilenotaryoc@gmail.com">mbmobilenotaryoc@gmail.com</a></p>
-            <p>Phone: (657)707-0377 </p>
-            <a href="tel:1657707-0377" target="_blank"><button class="main__btn">Call</button></a>
+    <div class="contact" id="contact">
+        <div class="contact__container">
+        <div class="contact__content">
+            <!-- <h1>Get your documents notarized today!</h1> -->
+            <div class="contact__info">
+                <h2>Call or E-mail to set up an appointment</h2>
+                <a class="email__link" href="mail-to:mbmobilenotaryoc@gmail.com"> </a>
+                <p>E-mail: <a href="mail-to:mbmobilenotaryoc@gmail.com">mbmobilenotaryoc@gmail.com</a></p>
+                <p>Phone: (657)707-0377 </p>
+                <a href="tel:1657707-0377" target="_blank"><button class="main__btn">Call</button></a>
+            </div>
+
+            <div class="contact__cta">
+                <!-- apparantely 'enctype="text/plain"' caused emails to be sent totally blank, removed and fixed -->
+                <form action="https://formsubmit.co/mbmobilenotaryoc@gmail.com" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name"><br>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" pattern=".{20,}" minlength="20" required></textarea>
+                    
+                    <input type="submit" class="main__btn" value="Send Message">
+
+                </form>
+            </div>
         </div>
 
-        <div class="contact__cta">
-            <!-- apparantely 'enctype="text/plain"' caused emails to be sent totally blank, removed and fixed -->
-            <form action="https://formsubmit.co/mbmobilenotaryoc@gmail.com" method="post">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name"><br>
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required><br>
-
-                <label for="message">Message</label>
-                <textarea name="message" id="message" pattern=".{20,}" minlength="20" required></textarea>
-                
-                <input type="submit" class="main__btn" value="Send Message">
-
-            </form>
+        <div class="main__img--container">
+            <div class="main__img--card" id="card-2">
+                <i class="fas fa-users"></i>
+            </div>
         </div>
-      </div>
-
-      <div class="main__img--container">
-        <div class="main__img--card" id="card-2">
-            <i class="fas fa-users"></i>
         </div>
-      </div>
     </div>
-</div>
 
-<!-- footer Section -->
-<div class="footer">
+    <!-- footer Section -->
+    <div class="footer">
     <div class="footer__container">
         <div class="footer__links">
             <div class="footer__link--wrapper">
@@ -218,7 +218,7 @@
             </div>
         </section>
     </div>
-</div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

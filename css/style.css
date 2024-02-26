@@ -55,8 +55,8 @@ a, .main__btn {
 
 .main__img--card {
   margin: auto;
-  height: 250px;
-  width: 250px;
+  height: 240px;
+  width: 240px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -78,7 +78,8 @@ a, .main__btn {
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   z-index: 999;
   padding: 0px 0px;
@@ -209,10 +210,10 @@ a, .main__btn {
   font-size: 7rem;
 }
 .main .main__img--container {
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 .main .main__content {
-  padding: 0 25px;
+  padding: 0 50px;
 }
 .main .main__content h1 {
   text-align: center;
@@ -228,7 +229,7 @@ a, .main__btn {
   margin-top: 25px;
   list-style-type: none;
   font-size: 1.1rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .services {
@@ -238,16 +239,16 @@ a, .main__btn {
   text-align: center;
   color: var(--primary-color);
   font-size: 2em;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 .services .services__container {
   display: flex;
   flex-direction: column;
-  padding: 70px 20px;
+  padding: 40px 20px;
 }
 .services .services__row {
   margin-top: 20px;
-  padding: 0 35px;
+  padding: 0 30px;
 }
 .services .services__row h2 {
   margin-top: 20px 0;
@@ -270,7 +271,7 @@ a, .main__btn {
   background-size: cover;
 }
 .contact .contact__container {
-  padding: 70px 0;
+  padding: 40px 20px;
   display: flex;
   flex-direction: column;
 }
@@ -371,14 +372,14 @@ a, .main__btn {
   .main__content {
     padding: 0 50px !important;
   }
-  .services__row {
-    padding: 0px 50px !important;
-  }
   .contact__content {
     padding: 0px 50px !important;
   }
 }
 @media screen and (min-width: 768px) {
+  .navbar {
+    position: sticky;
+  }
   .navbar .navbar__toggle {
     display: none;
   }
@@ -389,10 +390,10 @@ a, .main__btn {
     background: var(--background-color);
   }
   .hero .hero__heading {
-    font-size: 3em;
+    font-size: 2.4em;
   }
   .hero .hero__description {
-    font-size: 2em;
+    font-size: 1.7em;
   }
   .hero button {
     font-size: 1.5em;
@@ -428,7 +429,24 @@ a, .main__btn {
   }
 }
 @media screen and (min-width: 1080px) {
-  .main__container, .services__container {
+  .main__container {
     padding: 70px 50px !important;
+  }
+  .services h1 {
+    padding-top: 70px;
+  }
+  .services__container {
+    padding: 50px 50px 70px 50px !important;
+  }
+  .contact__container {
+    flex-direction: row !important;
+  }
+  .contact__container .main__img--container {
+    display: block;
+    margin: auto;
+    width: 30%;
+  }
+  .contact__container .contact__content {
+    width: 70%;
   }
 }/*# sourceMappingURL=style.css.map */
