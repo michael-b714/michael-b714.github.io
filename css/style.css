@@ -8,10 +8,14 @@
 * {
   /* This affects everything(?)  */
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: "poppins";
   scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 span {
@@ -199,13 +203,15 @@ a, .main__btn {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 70px 0px;
+  padding: 40px 0px;
 }
 .main .fa-car-side {
   font-size: 7rem;
 }
+.main .main__img--container {
+  margin-bottom: 25px;
+}
 .main .main__content {
-  margin-top: 32px;
   padding: 0 25px;
 }
 .main .main__content h1 {
@@ -218,8 +224,8 @@ a, .main__btn {
   font-size: 1.2em;
   color: var(--primary-color);
 }
-.main .main__content ul li {
-  margin-top: 20px;
+.main .main__content li {
+  margin-top: 25px;
   list-style-type: none;
   font-size: 1.1rem;
   font-weight: 700;
