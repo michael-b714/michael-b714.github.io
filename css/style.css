@@ -196,6 +196,40 @@ a, .main__btn {
   color: #fff;
 }
 
+.services {
+  background: #ebebeb;
+}
+.services h1 {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 2em;
+  padding-top: 40px;
+}
+.services .services__container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+.services .services__row {
+  margin-top: 20px;
+  padding: 0 30px;
+}
+.services .services__row h2 {
+  margin-top: 20px 0;
+  text-align: center;
+  color: var(--primary-color);
+}
+.services .services__row p {
+  margin-top: 40px;
+  color: #000000;
+}
+.services .services__row button {
+  padding: 15px 15px;
+}
+.services .main__img--card {
+  display: none;
+}
+
 .main {
   background: var(--background-color);
 }
@@ -233,42 +267,8 @@ a, .main__btn {
   font-weight: 400;
 }
 
-.services {
-  background: #ebebeb;
-}
-.services h1 {
-  text-align: center;
-  color: var(--primary-color);
-  font-size: 2em;
-  padding-top: 40px;
-}
-.services .services__container {
-  display: flex;
-  flex-direction: column;
-  padding: 40px 20px;
-}
-.services .services__row {
-  margin-top: 20px;
-  padding: 0 30px;
-}
-.services .services__row h2 {
-  margin-top: 20px 0;
-  text-align: center;
-  color: var(--primary-color);
-}
-.services .services__row p {
-  margin-top: 40px;
-  color: #000000;
-}
-.services .services__row button {
-  padding: 15px 15px;
-}
-.services .main__img--card {
-  display: none;
-}
-
 .contact {
-  background: var(--background-color);
+  background: #ebebeb;
   background-size: cover;
 }
 .contact .contact__container {
